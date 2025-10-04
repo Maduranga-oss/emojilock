@@ -1,23 +1,19 @@
 {
-  "name": "emojilock",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "eslint"
-  },
-  "dependencies": {
-    "react": "19.1.0",
-    "react-dom": "19.1.0",
-    "next": "15.5.4"
-  },
-  "devDependencies": {
-    "@tailwindcss/postcss": "^4",
-    "tailwindcss": "^4",
-    "eslint": "^9",
-    "eslint-config-next": "15.5.4",
-    "@eslint/eslintrc": "^3"
-  }
+"name": "emojilock",
+"private": true,
+"scripts": {
+"dev": "next dev",
+"build": "next build",
+"start": "next start",
+"lint": "next lint"
+},
+"dependencies": {
+"@farcaster/miniapp-sdk": "^0.1.0",
+"@farcaster/quick-auth": "^0.1.0",
+"@upstash/redis": "^1.31.0",
+"next": "^14.2.7",
+"react": "^18.3.1",
+"react-dom": "^18.3.1",
+"undici": "^6.19.8"
+}
 }
